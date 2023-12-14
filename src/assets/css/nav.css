@@ -1,0 +1,46 @@
+.after-signin-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 3.5em;
+    background-color: rgb(241, 236, 252);
+    height: 100%;
+-webkit-box-shadow: 5px 0px 25px -6px rgba(243,240,250,1);
+-moz-box-shadow: 5px 0px 25px -6px rgba(243,240,250,1);
+box-shadow: 5px 0px 25px -6px rgba(243,240,250,1);
+}
+
+.after-signin-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    height: 100%;
+}
+
+.after-sigin-inside-div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav content div */
+
+.nav-content-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-content-inside-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    height: 4em;
+}
+

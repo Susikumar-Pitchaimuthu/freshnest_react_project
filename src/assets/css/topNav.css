@@ -1,0 +1,34 @@
+.top-nav-div-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-height: 4em;
+}
+
+.top-nav-inside-div-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  gap: 30%;
+}
+
+/* logo div */
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* search bar */
+
+/* user profile area */
+.user-profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
