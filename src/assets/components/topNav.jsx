@@ -1,10 +1,14 @@
+import "../css/topNav.css";
+// import freshnestWhiteLogo from "../images/Logos/freshnest-logo-white.png";
+import freshnestBlackLogo from "../images/Logos/freshnest-logo-black.png";
+
 function TopNav() {
   return (
     <div className="top-nav-div-container">
       <div className="top-nav-inside-div-container">
         {/* Logo div */}
         <div className="logo-div">
-          <img src="" alt="logo-div" />
+          <img src={freshnestBlackLogo} alt="logo-div" />
         </div>
         {/* search bar */}
         <div class="search-container">
@@ -28,3 +32,5 @@ function TopNav() {
     </div>
   );
 }
+
+export default TopNav;
