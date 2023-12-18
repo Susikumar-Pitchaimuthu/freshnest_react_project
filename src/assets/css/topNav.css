@@ -1,34 +1,69 @@
 .top-nav-div-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    max-height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-height: 3em;
 }
 
-.top-nav-inside-div-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  gap: 30%;
+.top-nav-inside-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+  height: 100%;
 }
 
 /* logo div */
 
 .logo-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
+.freshnest-logo-image {
+  max-width: 9em;
+  max-height: 3em;
+}
 
 /* search bar */
 
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+}
+
+.top-nav-search-bar-form {
+  display: flex;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
+
 /* user profile area */
 .user-profile-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+
+.user-profile-inside-div-container {
+  display: flex;
+  align-items: center;
+  max-width: 98%;
+  gap: 8%;
+}
+
+.user-profile-photo {
+  max-width: 2em;
+  max-height: 2.5em;
+  border-radius: 50%;
 }

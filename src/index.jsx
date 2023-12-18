@@ -6,3 +6,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const entryPoint = document.getElementById("root");
 ReactDOM.createRoot(entryPoint).render(<App />);
+// Javascript syntax expression
+
+// dev parse

@@ -1,6 +1,6 @@
 import "../css/nav.css";
 
-import "../images/Logos/fresh-nest-logo-white.png";
+import freshnestWhiteLogo from "../images/Logos/freshnest-logo-white.png";
 
 let navContentObject = [
   { feature: "Home", "feature-image": "bi bi-house-door" },
